@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px)  and (max-width: 992px){
+    :root{
+        --black: #051119;
+        --green:#4C9099 ;
+        --purple: #5F2C82;
+    }
+    body,html{
+        background-image: linear-gradient(to bottom,#5F2C82 ,#4C9099);
+    }
+    
+}
+
+@media screen and (min-width: 991px) {
+    
+}
