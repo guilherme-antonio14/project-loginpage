@@ -17,14 +17,24 @@
                 <p>Welcome again! Sign in to proceed </p>
 
                 <form action="login.php" method="post" autocomplete="on">
-                    <span class="material-symbols-outlined">account_circle</span>
-                    <input type="email" name="email" id="iemail">
-
-                    <span class="material-symbols-outlined">vpn_key</span>
-                    <input type="password" name="pas" id="ipas">
-
-                    <input type="submit" value="Enviar">
-                    <input type="reset" value="Esqueci a senha">
+                    <div class="campo">
+                        <span class="material-symbols-outlined">account_circle</span>
+                        <input type="email" name="email" id="iemail" required minlength="0" maxlength="20" placeholder="your e-mail" >
+                        <label for="ilogin">Login</label>
+                        
+                    </div>
+                    <div class="campo">
+                        <span class="material-symbols-outlined">vpn_key</span>
+                        <input type="password" name="pas" id="ipas" required minlength="0" maxlength="12" placeholder="your password">
+                        <label for="ipas">Password</label>
+                        
+                    </div>
+                    <input type="submit" >
+                    <a href="esqueciasenha.html" class="but">Forgot password
+                        <span class="material-symbols-outlined">
+                            mail
+                            </span>
+                    </a>
                 </form>
 
             </div>
