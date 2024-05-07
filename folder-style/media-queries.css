@@ -1,17 +1,40 @@
 @charset "UTF-8";
 
 @media screen and (min-width: 768px)  and (max-width: 992px){
-    :root{
-        --black: #051119;
-        --green:#4C9099 ;
-        --purple: #5F2C82;
+    #login{
+        width: 70vw;
     }
-    body,html{
-        background-image: linear-gradient(to bottom,#5F2C82 ,#4C9099);
+
+    #login  #img{
+        float: left;
+        width: 30%;
+        height: 100%;
     }
-    
+    #login  #form{
+        float: right;
+        width: 70%;
+    }
+    body{
+        background-image: linear-gradient(to top, purple , lightgreen );
+    }
 }
 
-@media screen and (min-width: 991px) {
-    
+@media screen and (min-width: 992px) {
+    #login{
+        width: 950px;
+
+    }
+    #login  #img{
+        float: left;
+        width: 50%;
+        height: 100%;
+    }
+    #login #form{
+        float: right;
+        width: 50%;
+
+    }
+    body{
+        background-image: linear-gradient(to top, purple , lightgreen );
+    }
 }

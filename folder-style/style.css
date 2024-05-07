@@ -28,6 +28,9 @@ main{
     width: 250px;
     height: 500px;
     border-radius: 20px;
+
+    transition: width .3s, height .3s;
+    transition-timing-function: ease;
 }
 
 #login > #img{
@@ -40,7 +43,7 @@ main{
 
 }
 
-#form{
+#login > #form{
     padding: 10px;
     display: block;
 }
